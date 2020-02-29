@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #281E5A;
+    color: white;
+}
+
+.header-box {
+    width: 100%;
+    float: left;
+}
+
+.header-top-cont,
+.header-cont {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header-cont {
+    height: 44px;
+}
+
+.icon-question {
+    display: inline-block;
+    background-color: white;
+    color: #201848;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-top-cont {
+    text-align: right;
+}
+
+.header-top {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background-color: #201848;
+    color: white;
+}
+
+.logo {
+    width: 25%;
+}
+
+.search {
+    width: 50%;
+}
+
+.cart {
+    width: 25%;
+}
+
+.logo,
+.search,
+.cart,
+.category,
+.search-form,
+.log-in,
+.cart-cont {
+    float: left;
+}
+
+.category {
+    width: 20%;
+}
+
+.search-form {
+    width: 80%;
+}
+
+.cart-cont,
+.log-in {
+    width: 50%;
+}
+
+.cart-cont a,
+.log-in a {
+    color: white;
+    text-decoration: none;
+    /*menghilangkan garis bawah*/
+}
